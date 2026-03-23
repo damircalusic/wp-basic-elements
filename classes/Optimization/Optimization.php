@@ -1,5 +1,7 @@
 <?php
 
+namespace WPBE\Optimization;
+
 use WPBE\Optimization\Section\{AdminBar, AdminDashboard, AdminFooter, AdminUserProfile, Comments, Gutenberg, MetaTags, REST};
 
 defined( 'ABSPATH' ) || die();
