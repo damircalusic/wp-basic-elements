@@ -1,0 +1,385 @@
+// Settings Page
+body.wp-admin{
+
+	// Container
+	.wpbe-settings {
+		max-width: 1000px;
+
+		.wpbe-header {
+			display: flex;
+			align-items: center;
+			gap: 12px;
+			margin: 20px 0 24px;
+
+			h1 {
+				font-size: 1.6em;
+				font-weight: 600;
+				margin: 0;
+				padding: 0;
+			}
+
+			.wpbe-version {
+				font-size: 11px;
+				font-weight: 600;
+				color: #2271b1;
+				background: #f0f6fc;
+				padding: 2px 10px;
+				border-radius: 10px;
+			}
+		}
+	}
+
+	// Layout
+	.wpbe-layout {
+		display: flex;
+		gap: 16px;
+		align-items: flex-start;
+	}
+
+	// Sidebar nav
+	.wpbe-nav {
+		display: flex;
+		flex-direction: column;
+		gap: 2px;
+		width: 200px;
+		flex-shrink: 0;
+		position: sticky;
+		top: 32px;
+	}
+
+	.wpbe-nav-item {
+		background: none;
+		border: none;
+		border-radius: 4px;
+		padding: 8px 12px;
+		font-size: 13px;
+		font-weight: 400;
+		color: #50575e;
+		cursor: pointer;
+		text-align: left;
+		transition: color 0.15s ease, background 0.15s ease;
+
+		&:hover {
+			color: #1d2327;
+			background: #f6f7f7;
+		}
+
+		&.is-active {
+			color: #1d2327;
+			background: #f0f0f1;
+			font-weight: 500;
+		}
+	}
+
+	// Content area
+	.wpbe-content {
+		flex: 1;
+		min-width: 0;
+	}
+
+	// Panels
+	.wpbe-panel {
+		display: none;
+
+		&.is-active {
+			display: block;
+		}
+	}
+
+	// Cards
+	.wpbe-card {
+		background: #fff;
+		border: 1px solid #dcdcde;
+		border-radius: 4px;
+		margin-bottom: 16px;
+	}
+
+	.wpbe-card-header {
+		padding: 16px 24px;
+		border-bottom: 1px solid #f0f0f1;
+
+		.wpbe-card-title-row {
+			display: flex;
+			align-items: center;
+			justify-content: space-between;
+			gap: 12px;
+		}
+
+		h2 {
+			font-size: 14px;
+			font-weight: 600;
+			margin: 0;
+			padding: 0;
+			color: #1d2327;
+		}
+
+		p {
+			margin: 4px 0 0;
+			color: #646970;
+			font-size: 13px;
+		}
+
+		.wpbe-toggle-all {
+			background: none;
+			border: 1px solid #dcdcde;
+			border-radius: 4px;
+			padding: 3px 12px;
+			font-size: 11px;
+			font-weight: 500;
+			color: #50575e;
+			cursor: pointer;
+			transition: color 0.15s ease, border-color 0.15s ease, background 0.15s ease;
+			white-space: nowrap;
+
+			&:hover {
+				color: #1d2327;
+				border-color: #8c8f94;
+				background: #f6f7f7;
+			}
+		}
+	}
+
+	.wpbe-card-body {
+		padding: 8px;
+
+		.form-table {
+			margin: 0;
+
+			th {
+				display: none;
+			}
+
+			td {
+				padding: 0 0 8px;
+			}
+
+			tr:last-child td {
+				padding-bottom: 0;
+			}
+
+			// Non-fieldset form elements
+			td > label,
+			td > input[type="text"],
+			td > textarea,
+			td > .description,
+			td > details {
+				margin-left: 8px;
+				margin-right: 8px;
+			}
+		}
+
+		// Fieldset layout
+		fieldset {
+			display: flex;
+			flex-direction: column;
+			gap: 0;
+
+			label {
+				display: flex;
+				align-items: center;
+				gap: 14px;
+				padding: 12px 16px;
+				margin: 0;
+				font-size: 13px;
+				line-height: 20px;
+				color: #1d2327;
+				cursor: pointer;
+				user-select: none;
+				border-radius: 6px;
+				transition: background 0.15s ease;
+
+				&:hover {
+					background: #f6f7f7;
+				}
+			}
+
+			br {
+				display: none;
+			}
+
+			strong {
+				display: block;
+				padding: 16px 16px 4px;
+				margin: 0;
+				font-size: 11px;
+				font-weight: 600;
+				text-transform: uppercase;
+				letter-spacing: 0.5px;
+				color: #646970;
+
+				&:first-child {
+					padding-top: 4px;
+				}
+			}
+		}
+
+		// Toggle switch
+		input[type="checkbox"] {
+			appearance: none;
+			-webkit-appearance: none;
+			width: 36px;
+			height: 20px;
+			background: #c3c4c7;
+			border: none;
+			border-radius: 10px;
+			position: relative;
+			cursor: pointer;
+			flex-shrink: 0;
+			transition: background 0.2s ease;
+			margin: 0;
+			box-shadow: none;
+			outline: none;
+
+			&::before {
+				content: "";
+				position: absolute;
+				top: 2px;
+				left: 2px;
+				width: 16px;
+				height: 16px;
+				background: #fff;
+				border-radius: 50%;
+				transition: transform 0.2s ease;
+				box-shadow: 0 1px 2px rgba(0, 0, 0, 0.15);
+			}
+
+			&:checked {
+				background: #2271b1;
+
+				&::before {
+					margin:0;
+					transform: translateX(16px);
+				}
+			}
+
+			&:focus {
+				box-shadow: 0 0 0 2px #fff, 0 0 0 4px #2271b1;
+				outline: none;
+			}
+		}
+
+		// Field labels above inputs
+		.wpbe-field-label {
+			display: block;
+			font-size: 12px;
+			font-weight: 600;
+			color: #1d2327;
+			margin: 4px 0 6px;
+			padding: 0;
+		}
+
+		// Text input & textarea
+		input[type="text"],
+		textarea {
+			width: 100%;
+			max-width: 100%;
+			padding: 10px 12px;
+			border: 1px solid #dcdcde;
+			border-radius: 6px;
+			font-size: 13px;
+			line-height: 1.5;
+			color: #1d2327;
+			background: #f6f7f7;
+			transition: border-color 0.15s ease, box-shadow 0.15s ease, background 0.15s ease;
+			box-sizing: border-box;
+
+			&:focus {
+				border-color: #2271b1;
+				box-shadow: 0 0 0 1px #2271b1;
+				background: #fff;
+				outline: none;
+			}
+
+			&::placeholder {
+				color: #a7aaad;
+			}
+		}
+
+		textarea {
+			width:auto;
+			margin: 0;
+		}
+
+		// Description text
+		.description {
+			margin-top: 6px;
+			margin-bottom: 0;
+			font-size: 12px;
+			color: #646970;
+			line-height: 1.5;
+		}
+
+		// Standalone checkbox label (outside fieldset)
+		label:has(> input[type="checkbox"]):not(fieldset label) {
+			display: flex;
+			align-items: center;
+			gap: 14px;
+			padding: 12px 16px;
+			margin: 4px 0 0;
+			font-size: 13px;
+			line-height: 20px;
+			cursor: pointer;
+			user-select: none;
+			border-radius: 6px;
+			transition: background 0.15s ease;
+
+			&:hover {
+				background: #f6f7f7;
+			}
+		}
+
+		// Details / collapsible
+		details {
+			margin-top: 8px;
+
+			summary {
+				cursor: pointer;
+				font-weight: 500;
+				font-size: 13px;
+				color: #2271b1;
+				padding: 6px 0;
+
+				&:hover {
+					color: #135e96;
+				}
+			}
+
+			> div {
+				margin-top: 4px;
+				padding: 12px 16px;
+				background: #f6f7f7;
+				border-radius: 6px;
+				font-size: 12px;
+			}
+		}
+	}
+
+	// Submit button
+	.wpbe-submit {
+		display: flex;
+		align-items: center;
+		gap: 16px;
+		margin-top: 8px;
+
+		.button-primary {
+			padding: 6px 32px;
+			height: auto;
+			line-height: 1.6;
+			font-size: 13px;
+			font-weight: 500;
+			border-radius: 4px;
+		}
+
+		.wpbe-donate-link {
+			margin-left: auto;
+			font-size: 12px;
+			color: #646970;
+			text-decoration: none;
+			transition: color 0.15s ease;
+
+			&:hover {
+				color: #d63638;
+			}
+		}
+	}
+}

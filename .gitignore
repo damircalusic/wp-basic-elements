@@ -1,0 +1,19 @@
+node_modules/
+vendor/
+build/
+.DS_Store
+.idea
+*.log
+package-lock.json
+composer.lock
+
+# Github
+!.github
+
+# Claude Code settings
+!CLAUDE.md
+!.claude
+.claude/settings.local.json
+
+# Reports
+munin-reports/

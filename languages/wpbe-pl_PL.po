@@ -1,0 +1,534 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: WP Basic Elements 6.0.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/wp-basic-elements\n"
+"Last-Translator: Damir Calusic\n"
+"Language-Team: Polish\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2026-03-22T19:54:17+00:00\n"
+"PO-Revision-Date: 2026-03-22 20:00+0000\n"
+"Language: pl_PL\n"
+"X-Generator: WP-CLI 2.12.0\n"
+"X-Domain: wpbe\n"
+"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+
+#. Plugin Name of the plugin
+#: wp-basic-elements.php
+#: classes/Settings/Settings.php:874
+msgid "WP Basic Elements"
+msgstr "WP Basic Elements"
+
+#. Plugin URI of the plugin
+#: wp-basic-elements.php
+msgid "https://wordpress.org/plugins/wp-basic-elements/"
+msgstr "https://wordpress.org/plugins/wp-basic-elements/"
+
+#. Description of the plugin
+#: wp-basic-elements.php
+msgid "Disable unnecessary features and speed up your site. Make the WP Admin simple and clean."
+msgstr "Wyłącz niepotrzebne funkcje i przyspiesz swoją stronę. Uprość i oczyść panel WP Admin."
+
+#. Author of the plugin
+#: wp-basic-elements.php
+msgid "Damir Calusic"
+msgstr "Damir Calusic"
+
+#. Author URI of the plugin
+#: wp-basic-elements.php
+msgid "https://www.damircalusic.com/"
+msgstr "https://www.damircalusic.com/"
+
+#: classes/Optimization/Section/AdminBar.php:25
+msgid "WordPress Logo"
+msgstr "Logo WordPress"
+
+#: classes/Optimization/Section/AdminBar.php:26
+msgid "New Content (+New)"
+msgstr "Nowa treść (+Nowy)"
+
+#: classes/Optimization/Section/AdminBar.php:27
+msgid "Customize"
+msgstr "Dostosuj"
+
+#: classes/Optimization/Section/AdminBar.php:28
+msgid "Updates"
+msgstr "Aktualizacje"
+
+#: classes/Optimization/Section/AdminBar.php:29
+#: classes/Settings/Settings.php:241
+msgid "Comments"
+msgstr "Komentarze"
+
+#: classes/Optimization/Section/AdminBar.php:30
+msgid "Edit"
+msgstr "Edytuj"
+
+#: classes/Optimization/Section/AdminBar.php:31
+msgid "Site Editor"
+msgstr "Edytor witryny"
+
+#: classes/Optimization/Section/AdminBar.php:32
+msgid "Search"
+msgstr "Szukaj"
+
+#: classes/Optimization/Section/AdminBar.php:33
+msgid "Yoast SEO"
+msgstr "Yoast SEO"
+
+#: classes/Optimization/Section/AdminDashboard.php:27
+msgid "Welcome Panel"
+msgstr "Panel powitalny"
+
+#: classes/Optimization/Section/AdminDashboard.php:31
+msgid "At a Glance"
+msgstr "W skrócie"
+
+#: classes/Optimization/Section/AdminDashboard.php:35
+msgid "Activity"
+msgstr "Aktywność"
+
+#: classes/Optimization/Section/AdminDashboard.php:39
+msgid "Site Health Status"
+msgstr "Stan zdrowia witryny"
+
+#: classes/Optimization/Section/AdminDashboard.php:43
+msgid "Quick Draft"
+msgstr "Szybki szkic"
+
+#: classes/Optimization/Section/AdminDashboard.php:47
+msgid "WordPress Events and News"
+msgstr "Wydarzenia i aktualności WordPress"
+
+#: classes/Optimization/Section/AdminDashboard.php:52
+msgid "WooCommerce Setup"
+msgstr "Konfiguracja WooCommerce"
+
+#: classes/Optimization/Section/AdminDashboard.php:56
+msgid "WooCommerce Recent Reviews"
+msgstr "WooCommerce ostatnie recenzje"
+
+#: classes/Optimization/Section/AdminDashboard.php:60
+msgid "WooCommerce Status"
+msgstr "Status WooCommerce"
+
+#: classes/Optimization/Section/AdminDashboard.php:64
+msgid "WooCommerce Sales"
+msgstr "Sprzedaż WooCommerce"
+
+#: classes/Optimization/Section/AdminDashboard.php:68
+msgid "WooCommerce Recent Orders"
+msgstr "WooCommerce ostatnie zamówienia"
+
+#: classes/Optimization/Section/AdminDashboard.php:73
+msgid "Yoast SEO Overview"
+msgstr "Przegląd Yoast SEO"
+
+#: classes/Optimization/Section/AdminDashboard.php:78
+msgid "Easy WP SMTP Reports"
+msgstr "Raporty Easy WP SMTP"
+
+#: classes/Optimization/Section/AdminFooter.php:35
+msgid "Custom Footer Text"
+msgstr "Własny tekst stopki"
+
+#: classes/Optimization/Section/AdminFooter.php:39
+msgid "Hide WordPress Version"
+msgstr "Ukryj wersję WordPress"
+
+#: classes/Optimization/Section/AdminUserProfile.php:50
+msgid "Rich Editing"
+msgstr "Edytor wizualny"
+
+#: classes/Optimization/Section/AdminUserProfile.php:54
+msgid "Syntax Highlighting"
+msgstr "Podświetlanie składni"
+
+#: classes/Optimization/Section/AdminUserProfile.php:58
+msgid "Comment Shortcuts"
+msgstr "Skróty komentarzy"
+
+#: classes/Optimization/Section/AdminUserProfile.php:62
+msgid "Admin Color Scheme"
+msgstr "Schemat kolorów panelu"
+
+#: classes/Optimization/Section/AdminUserProfile.php:66
+msgid "Show Admin Bar on Front"
+msgstr "Pokaż pasek admina na stronie"
+
+#: classes/Optimization/Section/AdminUserProfile.php:70
+msgid "Application Passwords"
+msgstr "Hasła aplikacji"
+
+#: classes/Optimization/Section/AdminUserProfile.php:74
+msgid "Yoast SEO Settings"
+msgstr "Ustawienia Yoast SEO"
+
+#: classes/Optimization/Section/AdminUserProfile.php:87
+msgid "Facebook"
+msgstr "Facebook"
+
+#: classes/Optimization/Section/AdminUserProfile.php:88
+msgid "Instagram"
+msgstr "Instagram"
+
+#: classes/Optimization/Section/AdminUserProfile.php:89
+msgid "LinkedIn"
+msgstr "LinkedIn"
+
+#: classes/Optimization/Section/AdminUserProfile.php:90
+msgid "MySpace"
+msgstr "MySpace"
+
+#: classes/Optimization/Section/AdminUserProfile.php:91
+msgid "Pinterest"
+msgstr "Pinterest"
+
+#: classes/Optimization/Section/AdminUserProfile.php:92
+msgid "SoundCloud"
+msgstr "SoundCloud"
+
+#: classes/Optimization/Section/AdminUserProfile.php:93
+msgid "Tumblr"
+msgstr "Tumblr"
+
+#: classes/Optimization/Section/AdminUserProfile.php:94
+msgid "Twitter / X"
+msgstr "Twitter / X"
+
+#: classes/Optimization/Section/AdminUserProfile.php:95
+msgid "YouTube"
+msgstr "YouTube"
+
+#: classes/Optimization/Section/AdminUserProfile.php:96
+msgid "Wikipedia"
+msgstr "Wikipedia"
+
+#: classes/Optimization/Section/AdminUserProfile.php:97
+msgid "AIM"
+msgstr "AIM"
+
+#: classes/Optimization/Section/AdminUserProfile.php:98
+msgid "Yahoo IM"
+msgstr "Yahoo IM"
+
+#: classes/Optimization/Section/AdminUserProfile.php:99
+msgid "Jabber / Google Talk"
+msgstr "Jabber / Google Talk"
+
+#: classes/Optimization/Section/Comments.php:38
+msgid "Disable Comments Entirely"
+msgstr "Całkowicie wyłącz komentarze"
+
+#: classes/Optimization/Section/Gutenberg.php:28
+msgid "Welcome Guide"
+msgstr "Przewodnik powitalny"
+
+#: classes/Optimization/Section/Gutenberg.php:29
+msgid "Fullscreen Mode"
+msgstr "Tryb pełnoekranowy"
+
+#: classes/Optimization/Section/Gutenberg.php:30
+msgid "Focus Mode (Spotlight)"
+msgstr "Tryb skupienia (Spotlight)"
+
+#: classes/Optimization/Section/Gutenberg.php:31
+msgid "Distraction Free Mode"
+msgstr "Tryb bez rozpraszania"
+
+#: classes/Optimization/Section/Gutenberg.php:32
+msgid "Top Toolbar"
+msgstr "Górny pasek narzędzi"
+
+#: classes/Optimization/Section/MetaTags.php:73
+msgid "Head Cleanup"
+msgstr "Czyszczenie nagłówka"
+
+#: classes/Optimization/Section/MetaTags.php:75
+msgid "WordPress Generator Tag"
+msgstr "Tag WordPress Generator"
+
+#: classes/Optimization/Section/MetaTags.php:76
+msgid "oEmbed Discovery Links"
+msgstr "Linki odkrywania oEmbed"
+
+#: classes/Optimization/Section/MetaTags.php:77
+msgid "Shortlink Tag"
+msgstr "Tag krótkiego linku"
+
+#: classes/Optimization/Section/MetaTags.php:78
+msgid "Windows Live Writer Manifest"
+msgstr "Manifest Windows Live Writer"
+
+#: classes/Optimization/Section/MetaTags.php:79
+msgid "Adjacent Posts (prev/next) Links"
+msgstr "Linki sąsiednich wpisów (poprz./nast.)"
+
+#: classes/Optimization/Section/MetaTags.php:83
+msgid "REST API"
+msgstr "REST API"
+
+#: classes/Optimization/Section/MetaTags.php:85
+msgid "REST API Links (head, header, RSD)"
+msgstr "Linki REST API (head, header, RSD)"
+
+#: classes/Optimization/Section/MetaTags.php:89
+msgid "Feeds"
+msgstr "Kanały"
+
+#: classes/Optimization/Section/MetaTags.php:91
+msgid "RSD (Really Simple Discovery) Link"
+msgstr "Link RSD (Really Simple Discovery)"
+
+#: classes/Optimization/Section/MetaTags.php:92
+msgid "RSS Feed Links"
+msgstr "Linki kanału RSS"
+
+#: classes/Optimization/Section/MetaTags.php:96
+msgid "Emojis"
+msgstr "Emoji"
+
+#: classes/Optimization/Section/MetaTags.php:98
+msgid "Emoji Scripts, Styles and TinyMCE Plugin"
+msgstr "Skrypty Emoji, style i wtyczka TinyMCE"
+
+#: classes/Optimization/Section/MetaTags.php:102
+msgid "Pingbacks & Trackbacks"
+msgstr "Pingbacki i Trackbacki"
+
+#: classes/Optimization/Section/MetaTags.php:104
+msgid "Disable Pingbacks, Trackbacks and X-Pingback Header"
+msgstr "Wyłącz Pingbacki, Trackbacki i nagłówek X-Pingback"
+
+#: classes/Optimization/Section/REST.php:46
+msgid "REST API restricted to authenticated users."
+msgstr "REST API ograniczone do uwierzytelnionych użytkowników."
+
+#: classes/Optimization/Section/REST.php:60
+msgid "WooCommerce REST API (cart, checkout, products)"
+msgstr "WooCommerce REST API (koszyk, kasa, produkty)"
+
+#: classes/Optimization/Section/REST.php:61
+msgid "WooCommerce Analytics"
+msgstr "Analityka WooCommerce"
+
+#: classes/Optimization/Section/REST.php:62
+msgid "WooCommerce Admin"
+msgstr "WooCommerce Admin"
+
+#: classes/Optimization/Section/REST.php:63
+msgid "WooCommerce Blocks (cart, checkout blocks)"
+msgstr "Bloki WooCommerce (koszyk, bloki kasy)"
+
+#: classes/Optimization/Section/REST.php:64
+msgid "WooCommerce REST API v3"
+msgstr "WooCommerce REST API v3"
+
+#: classes/Optimization/Section/REST.php:65
+msgid "WooCommerce Blocks API"
+msgstr "WooCommerce Blocks API"
+
+#: classes/Optimization/Section/REST.php:68
+msgid "WordPress Media uploads"
+msgstr "Przesyłanie mediów WordPress"
+
+#: classes/Optimization/Section/REST.php:69
+msgid "WordPress Search"
+msgstr "Wyszukiwanie WordPress"
+
+#: classes/Optimization/Section/REST.php:70
+msgid "WordPress Post types"
+msgstr "Typy wpisów WordPress"
+
+#: classes/Optimization/Section/REST.php:71
+msgid "WordPress Taxonomies"
+msgstr "Taksonomie WordPress"
+
+#: classes/Optimization/Section/REST.php:72
+msgid "oEmbed (embedded content)"
+msgstr "oEmbed (osadzona treść)"
+
+#: classes/Settings/Settings.php:56
+msgid "Settings"
+msgstr "Ustawienia"
+
+#: classes/Settings/Settings.php:57
+msgid "Donate (PayPal)"
+msgstr "Wesprzyj (PayPal)"
+
+#: classes/Settings/Settings.php:71
+msgid "WPBE Settings"
+msgstr "Ustawienia WPBE"
+
+#: classes/Settings/Settings.php:72
+msgid "WPBE Elements"
+msgstr "WPBE Elements"
+
+#: classes/Settings/Settings.php:113
+msgid "Admin Bar"
+msgstr "Pasek admina"
+
+#: classes/Settings/Settings.php:120
+msgid "Remove Admin Bar Items"
+msgstr "Usuń elementy paska admina"
+
+#: classes/Settings/Settings.php:145
+msgid "Admin Dashboard"
+msgstr "Kokpit admina"
+
+#: classes/Settings/Settings.php:152
+msgid "Remove Dashboard Widgets"
+msgstr "Usuń widżety kokpitu"
+
+#: classes/Settings/Settings.php:177
+msgid "Admin Footer"
+msgstr "Stopka admina"
+
+#: classes/Settings/Settings.php:184
+msgid "Footer Options"
+msgstr "Ustawienia stopki"
+
+#: classes/Settings/Settings.php:209
+msgid "Admin User Profile"
+msgstr "Profil użytkownika admina"
+
+#: classes/Settings/Settings.php:216
+msgid "Profile Options"
+msgstr "Ustawienia profilu"
+
+#: classes/Settings/Settings.php:248
+msgid "Comment Options"
+msgstr "Ustawienia komentarzy"
+
+#: classes/Settings/Settings.php:273
+msgid "Gutenberg Editor"
+msgstr "Edytor Gutenberg"
+
+#: classes/Settings/Settings.php:280
+msgid "Disable Editor Features"
+msgstr "Wyłącz funkcje edytora"
+
+#: classes/Settings/Settings.php:305
+msgid "Meta Tags & Head Cleanup"
+msgstr "Metatagi i czyszczenie nagłówka"
+
+#: classes/Settings/Settings.php:312
+msgid "Cleanup Options"
+msgstr "Opcje czyszczenia"
+
+#: classes/Settings/Settings.php:337
+msgid "REST API Settings"
+msgstr "Ustawienia REST API"
+
+#: classes/Settings/Settings.php:344
+msgid "Custom REST API Whitelist"
+msgstr "Własna biała lista REST API"
+
+#: classes/Settings/Settings.php:378
+msgid "Select which items to remove from the WordPress admin bar."
+msgstr "Wybierz, które elementy usunąć z paska admina WordPress."
+
+#: classes/Settings/Settings.php:429
+msgid "Remove unnecessary tags and scripts from the site head."
+msgstr "Usuń niepotrzebne tagi i skrypty z nagłówka strony."
+
+#: classes/Settings/Settings.php:480
+msgid "Customize the WordPress admin footer area."
+msgstr "Dostosuj obszar stopki panelu WordPress."
+
+#: classes/Settings/Settings.php:495
+msgid "Left Footer Text"
+msgstr "Lewy tekst stopki"
+
+#: classes/Settings/Settings.php:500
+msgid "&copy; 2026 My Company. All rights reserved."
+msgstr "&copy; 2026 Moja firma. Wszelkie prawa zastrzeżone."
+
+#: classes/Settings/Settings.php:502
+msgid "Replaces the default \"Thank you for creating with WordPress\" text. HTML allowed."
+msgstr "Zastępuje domyślny tekst \"Dziękujemy za tworzenie z WordPress\". HTML dozwolony."
+
+#: classes/Settings/Settings.php:508
+msgid "Right Footer Text"
+msgstr "Prawy tekst stopki"
+
+#: classes/Settings/Settings.php:513
+msgid "v1.0.0"
+msgstr "v1.0.0"
+
+#: classes/Settings/Settings.php:515
+msgid "Replaces the WordPress version text on the right side. HTML allowed."
+msgstr "Zastępuje tekst wersji WordPress po prawej stronie. HTML dozwolony."
+
+#: classes/Settings/Settings.php:522
+msgid "Hide Right Footer Text Entirely"
+msgstr "Całkowicie ukryj prawy tekst stopki"
+
+#: classes/Settings/Settings.php:558
+msgid "Hide unnecessary fields from the user profile page."
+msgstr "Ukryj niepotrzebne pola na stronie profilu użytkownika."
+
+#: classes/Settings/Settings.php:570
+msgid "Hide Profile Fields"
+msgstr "Ukryj pola profilu"
+
+#: classes/Settings/Settings.php:581
+msgid "Remove Contact Methods"
+msgstr "Usuń metody kontaktu"
+
+#: classes/Settings/Settings.php:621
+msgid "Configure WordPress comment functionality."
+msgstr "Skonfiguruj funkcjonalność komentarzy WordPress."
+
+#: classes/Settings/Settings.php:643
+msgid "Removes the comments menu, closes comments on all posts, hides existing comments, and removes comment support from all post types."
+msgstr "Usuwa menu komentarzy, zamyka komentarze we wszystkich wpisach, ukrywa istniejące komentarze i usuwa obsługę komentarzy ze wszystkich typów wpisów."
+
+#: classes/Settings/Settings.php:673
+msgid "Disable default Gutenberg editor features for all users."
+msgstr "Wyłącz domyślne funkcje edytora Gutenberg dla wszystkich użytkowników."
+
+#: classes/Settings/Settings.php:695
+msgid "Checked features will be turned off when the editor loads."
+msgstr "Zaznaczone funkcje zostaną wyłączone po załadowaniu edytora."
+
+#: classes/Settings/Settings.php:725
+msgid "Select which widgets to remove from the WordPress dashboard."
+msgstr "Wybierz, które widżety usunąć z kokpitu WordPress."
+
+#: classes/Settings/Settings.php:767
+msgid "Configure REST API access restrictions for non-logged-in users."
+msgstr "Skonfiguruj ograniczenia dostępu REST API dla niezalogowanych użytkowników."
+
+#: classes/Settings/Settings.php:788
+msgid "Add custom REST API endpoints to whitelist (comma-separated). These will be accessible to non-logged-in users."
+msgstr "Dodaj własne punkty końcowe REST API do białej listy (oddzielone przecinkami). Będą one dostępne dla niezalogowanych użytkowników."
+
+#: classes/Settings/Settings.php:792
+msgid "Example:"
+msgstr "Przykład:"
+
+#: classes/Settings/Settings.php:798
+msgid "View Default Whitelisted Endpoints"
+msgstr "Pokaż domyślne punkty końcowe na białej liście"
+
+#: classes/Settings/Settings.php:801
+msgid "These endpoints are whitelisted by default and do not need to be added manually:"
+msgstr "Te punkty końcowe są domyślnie na białej liście i nie trzeba ich dodawać ręcznie."
+
+#: classes/Settings/Settings.php:906
+msgid "Toggle all"
+msgstr "Przełącz wszystkie"
+
+#: classes/Settings/Settings.php:907
+msgid "Toggle All"
+msgstr "Przełącz wszystkie"
+
+#: classes/Settings/Settings.php:927
+msgid "Save Settings"
+msgstr "Zapisz ustawienia"
+
+#: classes/Settings/Settings.php:928
+msgid "Buy me a coffee"
+msgstr "Postaw mi kawę"

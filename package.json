@@ -1,0 +1,64 @@
+{
+	"name": "wp-basic-elements",
+	"version": "6.0.0",
+	"description": "Build tool part for wp-basic-elements plugin",
+	"author": "WK Web Kreativ",
+	"scripts": {
+		"packages-update": "wp-scripts packages-update",
+		"build": "wp-scripts build",
+		"watch": "wp-scripts start",
+		"start": "wp-scripts start",
+		"i18n:pot": "wp i18n make-pot . ./languages/wpbe.pot --domain=wpbe --exclude=vendor",
+		"i18n:po": "wp i18n update-po ./languages/wpbe.pot",
+		"i18n:mo": "wp i18n make-mo ./languages",
+		"i18n:php": "wp i18n make-php ./languages",
+		"i18n:json": "wp i18n make-json ./languages --no-purge",
+		"i18n": "npm run i18n:pot && npm run i18n:po && npm run i18n:mo && npm run i18n:php && npm run i18n:json"
+	},
+	"eslintConfig": {
+		"extends": "plugin:@wordpress/eslint-plugin/recommended-with-formatting",
+		"ignorePatterns": [
+			"build"
+		],
+		"globals": {
+			"wp": "readonly"
+		},
+		"env": {
+			"jquery": true,
+			"browser": true,
+			"node": true
+		},
+		"rules": {
+			"no-console": "warn",
+			"no-alert": "warn",
+			"no-unused-vars": "warn"
+		}
+	},
+	"stylelint": {
+		"extends": "@wordpress/stylelint-config/scss",
+		"ignoreFiles": [
+			"**/build/**/*.css"
+		],
+		"rules": {
+			"at-rule-empty-line-before": null,
+			"at-rule-no-unknown": null,
+			"font-weight-notation": null,
+			"no-descending-specificity": null,
+			"selector-class-pattern": null,
+			"value-keyword-case": null,
+			"selector-id-pattern": null,
+			"block-no-empty": null,
+			"no-invalid-position-at-import-rule": null
+		}
+	},
+	"devDependencies": {
+		"@wordpress/dom-ready": "*",
+		"@wordpress/scripts": "*",
+		"css-minimizer-webpack-plugin": "*",
+		"eslint": "^9.21.0",
+		"terser-webpack-plugin": "*"
+	},
+	"dependencies": {
+		"@wordpress/dom-ready": "*"
+	}
+}

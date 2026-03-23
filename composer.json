@@ -1,0 +1,20 @@
+{
+	"name": "damircalusic/wp-basic-elements",
+	"description": "WP Basic Elements WordPress Plugin",
+	"type": "wordpress-plugin",
+	"license": "GPL-2.0-or-later",
+	"require-dev": {
+		"squizlabs/php_codesniffer": "^3.0",
+		"wp-coding-standards/wpcs": "^3.0",
+		"phpcompatibility/phpcompatibility-wp": "^2.1"
+	},
+	"config": {
+		"allow-plugins": {
+			"dealerdirect/phpcodesniffer-composer-installer": true
+		}
+	},
+	"scripts": {
+		"phpcs": "phpcs --standard=phpcs.xml .",
+		"phpcbf": "phpcbf --standard=phpcs.xml ."
+	}
+}

@@ -1,0 +1,534 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: WP Basic Elements 6.0.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/wp-basic-elements\n"
+"Last-Translator: Damir Calusic\n"
+"Language-Team: Danish\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2026-03-22T19:54:17+00:00\n"
+"PO-Revision-Date: 2026-03-22 20:00+0000\n"
+"Language: da_DK\n"
+"X-Generator: WP-CLI 2.12.0\n"
+"X-Domain: wpbe\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#. Plugin Name of the plugin
+#: wp-basic-elements.php
+#: classes/Settings/Settings.php:874
+msgid "WP Basic Elements"
+msgstr "WP Basic Elements"
+
+#. Plugin URI of the plugin
+#: wp-basic-elements.php
+msgid "https://wordpress.org/plugins/wp-basic-elements/"
+msgstr "https://wordpress.org/plugins/wp-basic-elements/"
+
+#. Description of the plugin
+#: wp-basic-elements.php
+msgid "Disable unnecessary features and speed up your site. Make the WP Admin simple and clean."
+msgstr "Deaktiver unødvendige funktioner og gør dit websted hurtigere. Gør WP Admin enkel og ren."
+
+#. Author of the plugin
+#: wp-basic-elements.php
+msgid "Damir Calusic"
+msgstr "Damir Calusic"
+
+#. Author URI of the plugin
+#: wp-basic-elements.php
+msgid "https://www.damircalusic.com/"
+msgstr "https://www.damircalusic.com/"
+
+#: classes/Optimization/Section/AdminBar.php:25
+msgid "WordPress Logo"
+msgstr "WordPress-logo"
+
+#: classes/Optimization/Section/AdminBar.php:26
+msgid "New Content (+New)"
+msgstr "Nyt indhold (+Nyt)"
+
+#: classes/Optimization/Section/AdminBar.php:27
+msgid "Customize"
+msgstr "Tilpas"
+
+#: classes/Optimization/Section/AdminBar.php:28
+msgid "Updates"
+msgstr "Opdateringer"
+
+#: classes/Optimization/Section/AdminBar.php:29
+#: classes/Settings/Settings.php:241
+msgid "Comments"
+msgstr "Kommentarer"
+
+#: classes/Optimization/Section/AdminBar.php:30
+msgid "Edit"
+msgstr "Rediger"
+
+#: classes/Optimization/Section/AdminBar.php:31
+msgid "Site Editor"
+msgstr "Webstedsredigering"
+
+#: classes/Optimization/Section/AdminBar.php:32
+msgid "Search"
+msgstr "Søg"
+
+#: classes/Optimization/Section/AdminBar.php:33
+msgid "Yoast SEO"
+msgstr "Yoast SEO"
+
+#: classes/Optimization/Section/AdminDashboard.php:27
+msgid "Welcome Panel"
+msgstr "Velkomstpanel"
+
+#: classes/Optimization/Section/AdminDashboard.php:31
+msgid "At a Glance"
+msgstr "Overblik"
+
+#: classes/Optimization/Section/AdminDashboard.php:35
+msgid "Activity"
+msgstr "Aktivitet"
+
+#: classes/Optimization/Section/AdminDashboard.php:39
+msgid "Site Health Status"
+msgstr "Webstedssundhed"
+
+#: classes/Optimization/Section/AdminDashboard.php:43
+msgid "Quick Draft"
+msgstr "Hurtig kladde"
+
+#: classes/Optimization/Section/AdminDashboard.php:47
+msgid "WordPress Events and News"
+msgstr "WordPress-begivenheder og nyheder"
+
+#: classes/Optimization/Section/AdminDashboard.php:52
+msgid "WooCommerce Setup"
+msgstr "WooCommerce-opsætning"
+
+#: classes/Optimization/Section/AdminDashboard.php:56
+msgid "WooCommerce Recent Reviews"
+msgstr "WooCommerce seneste anmeldelser"
+
+#: classes/Optimization/Section/AdminDashboard.php:60
+msgid "WooCommerce Status"
+msgstr "WooCommerce-status"
+
+#: classes/Optimization/Section/AdminDashboard.php:64
+msgid "WooCommerce Sales"
+msgstr "WooCommerce-salg"
+
+#: classes/Optimization/Section/AdminDashboard.php:68
+msgid "WooCommerce Recent Orders"
+msgstr "WooCommerce seneste ordrer"
+
+#: classes/Optimization/Section/AdminDashboard.php:73
+msgid "Yoast SEO Overview"
+msgstr "Yoast SEO-oversigt"
+
+#: classes/Optimization/Section/AdminDashboard.php:78
+msgid "Easy WP SMTP Reports"
+msgstr "Easy WP SMTP-rapporter"
+
+#: classes/Optimization/Section/AdminFooter.php:35
+msgid "Custom Footer Text"
+msgstr "Brugerdefineret sidefodstekst"
+
+#: classes/Optimization/Section/AdminFooter.php:39
+msgid "Hide WordPress Version"
+msgstr "Skjul WordPress-version"
+
+#: classes/Optimization/Section/AdminUserProfile.php:50
+msgid "Rich Editing"
+msgstr "Visuel redigering"
+
+#: classes/Optimization/Section/AdminUserProfile.php:54
+msgid "Syntax Highlighting"
+msgstr "Syntaksfremhævning"
+
+#: classes/Optimization/Section/AdminUserProfile.php:58
+msgid "Comment Shortcuts"
+msgstr "Kommentargenveje"
+
+#: classes/Optimization/Section/AdminUserProfile.php:62
+msgid "Admin Color Scheme"
+msgstr "Admin farveskema"
+
+#: classes/Optimization/Section/AdminUserProfile.php:66
+msgid "Show Admin Bar on Front"
+msgstr "Vis adminbar på forsiden"
+
+#: classes/Optimization/Section/AdminUserProfile.php:70
+msgid "Application Passwords"
+msgstr "Applikationsadgangskoder"
+
+#: classes/Optimization/Section/AdminUserProfile.php:74
+msgid "Yoast SEO Settings"
+msgstr "Yoast SEO-indstillinger"
+
+#: classes/Optimization/Section/AdminUserProfile.php:87
+msgid "Facebook"
+msgstr "Facebook"
+
+#: classes/Optimization/Section/AdminUserProfile.php:88
+msgid "Instagram"
+msgstr "Instagram"
+
+#: classes/Optimization/Section/AdminUserProfile.php:89
+msgid "LinkedIn"
+msgstr "LinkedIn"
+
+#: classes/Optimization/Section/AdminUserProfile.php:90
+msgid "MySpace"
+msgstr "MySpace"
+
+#: classes/Optimization/Section/AdminUserProfile.php:91
+msgid "Pinterest"
+msgstr "Pinterest"
+
+#: classes/Optimization/Section/AdminUserProfile.php:92
+msgid "SoundCloud"
+msgstr "SoundCloud"
+
+#: classes/Optimization/Section/AdminUserProfile.php:93
+msgid "Tumblr"
+msgstr "Tumblr"
+
+#: classes/Optimization/Section/AdminUserProfile.php:94
+msgid "Twitter / X"
+msgstr "Twitter / X"
+
+#: classes/Optimization/Section/AdminUserProfile.php:95
+msgid "YouTube"
+msgstr "YouTube"
+
+#: classes/Optimization/Section/AdminUserProfile.php:96
+msgid "Wikipedia"
+msgstr "Wikipedia"
+
+#: classes/Optimization/Section/AdminUserProfile.php:97
+msgid "AIM"
+msgstr "AIM"
+
+#: classes/Optimization/Section/AdminUserProfile.php:98
+msgid "Yahoo IM"
+msgstr "Yahoo IM"
+
+#: classes/Optimization/Section/AdminUserProfile.php:99
+msgid "Jabber / Google Talk"
+msgstr "Jabber / Google Talk"
+
+#: classes/Optimization/Section/Comments.php:38
+msgid "Disable Comments Entirely"
+msgstr "Deaktiver kommentarer helt"
+
+#: classes/Optimization/Section/Gutenberg.php:28
+msgid "Welcome Guide"
+msgstr "Velkomstguide"
+
+#: classes/Optimization/Section/Gutenberg.php:29
+msgid "Fullscreen Mode"
+msgstr "Fuldskærmstilstand"
+
+#: classes/Optimization/Section/Gutenberg.php:30
+msgid "Focus Mode (Spotlight)"
+msgstr "Fokustilstand (Spotlight)"
+
+#: classes/Optimization/Section/Gutenberg.php:31
+msgid "Distraction Free Mode"
+msgstr "Distraktionsfri tilstand"
+
+#: classes/Optimization/Section/Gutenberg.php:32
+msgid "Top Toolbar"
+msgstr "Øverste værktøjslinje"
+
+#: classes/Optimization/Section/MetaTags.php:73
+msgid "Head Cleanup"
+msgstr "Head-oprydning"
+
+#: classes/Optimization/Section/MetaTags.php:75
+msgid "WordPress Generator Tag"
+msgstr "WordPress Generator-tag"
+
+#: classes/Optimization/Section/MetaTags.php:76
+msgid "oEmbed Discovery Links"
+msgstr "oEmbed-opdagelseslinks"
+
+#: classes/Optimization/Section/MetaTags.php:77
+msgid "Shortlink Tag"
+msgstr "Kortlinks-tag"
+
+#: classes/Optimization/Section/MetaTags.php:78
+msgid "Windows Live Writer Manifest"
+msgstr "Windows Live Writer-manifest"
+
+#: classes/Optimization/Section/MetaTags.php:79
+msgid "Adjacent Posts (prev/next) Links"
+msgstr "Tilstødende indlæg (forrige/næste) links"
+
+#: classes/Optimization/Section/MetaTags.php:83
+msgid "REST API"
+msgstr "REST API"
+
+#: classes/Optimization/Section/MetaTags.php:85
+msgid "REST API Links (head, header, RSD)"
+msgstr "REST API-links (head, header, RSD)"
+
+#: classes/Optimization/Section/MetaTags.php:89
+msgid "Feeds"
+msgstr "Feeds"
+
+#: classes/Optimization/Section/MetaTags.php:91
+msgid "RSD (Really Simple Discovery) Link"
+msgstr "RSD-link (Really Simple Discovery)"
+
+#: classes/Optimization/Section/MetaTags.php:92
+msgid "RSS Feed Links"
+msgstr "RSS-feedlinks"
+
+#: classes/Optimization/Section/MetaTags.php:96
+msgid "Emojis"
+msgstr "Emojis"
+
+#: classes/Optimization/Section/MetaTags.php:98
+msgid "Emoji Scripts, Styles and TinyMCE Plugin"
+msgstr "Emoji-scripts, stilarter og TinyMCE-plugin"
+
+#: classes/Optimization/Section/MetaTags.php:102
+msgid "Pingbacks & Trackbacks"
+msgstr "Pingbacks og Trackbacks"
+
+#: classes/Optimization/Section/MetaTags.php:104
+msgid "Disable Pingbacks, Trackbacks and X-Pingback Header"
+msgstr "Deaktiver Pingbacks, Trackbacks og X-Pingback-header"
+
+#: classes/Optimization/Section/REST.php:46
+msgid "REST API restricted to authenticated users."
+msgstr "REST API begrænset til autentificerede brugere."
+
+#: classes/Optimization/Section/REST.php:60
+msgid "WooCommerce REST API (cart, checkout, products)"
+msgstr "WooCommerce REST API (indkøbskurv, kasse, produkter)"
+
+#: classes/Optimization/Section/REST.php:61
+msgid "WooCommerce Analytics"
+msgstr "WooCommerce-analyse"
+
+#: classes/Optimization/Section/REST.php:62
+msgid "WooCommerce Admin"
+msgstr "WooCommerce Admin"
+
+#: classes/Optimization/Section/REST.php:63
+msgid "WooCommerce Blocks (cart, checkout blocks)"
+msgstr "WooCommerce-blokke (indkøbskurv, kasseblokke)"
+
+#: classes/Optimization/Section/REST.php:64
+msgid "WooCommerce REST API v3"
+msgstr "WooCommerce REST API v3"
+
+#: classes/Optimization/Section/REST.php:65
+msgid "WooCommerce Blocks API"
+msgstr "WooCommerce Blocks API"
+
+#: classes/Optimization/Section/REST.php:68
+msgid "WordPress Media uploads"
+msgstr "WordPress medieoverførsler"
+
+#: classes/Optimization/Section/REST.php:69
+msgid "WordPress Search"
+msgstr "WordPress-søgning"
+
+#: classes/Optimization/Section/REST.php:70
+msgid "WordPress Post types"
+msgstr "WordPress indlægstyper"
+
+#: classes/Optimization/Section/REST.php:71
+msgid "WordPress Taxonomies"
+msgstr "WordPress taksonomier"
+
+#: classes/Optimization/Section/REST.php:72
+msgid "oEmbed (embedded content)"
+msgstr "oEmbed (indlejret indhold)"
+
+#: classes/Settings/Settings.php:56
+msgid "Settings"
+msgstr "Indstillinger"
+
+#: classes/Settings/Settings.php:57
+msgid "Donate (PayPal)"
+msgstr "Doner (PayPal)"
+
+#: classes/Settings/Settings.php:71
+msgid "WPBE Settings"
+msgstr "WPBE-indstillinger"
+
+#: classes/Settings/Settings.php:72
+msgid "WPBE Elements"
+msgstr "WPBE Elements"
+
+#: classes/Settings/Settings.php:113
+msgid "Admin Bar"
+msgstr "Adminbar"
+
+#: classes/Settings/Settings.php:120
+msgid "Remove Admin Bar Items"
+msgstr "Fjern elementer i adminbaren"
+
+#: classes/Settings/Settings.php:145
+msgid "Admin Dashboard"
+msgstr "Adminpanel"
+
+#: classes/Settings/Settings.php:152
+msgid "Remove Dashboard Widgets"
+msgstr "Fjern panelwidgets"
+
+#: classes/Settings/Settings.php:177
+msgid "Admin Footer"
+msgstr "Admin sidefod"
+
+#: classes/Settings/Settings.php:184
+msgid "Footer Options"
+msgstr "Sidefodsindstillinger"
+
+#: classes/Settings/Settings.php:209
+msgid "Admin User Profile"
+msgstr "Admin brugerprofil"
+
+#: classes/Settings/Settings.php:216
+msgid "Profile Options"
+msgstr "Profilindstillinger"
+
+#: classes/Settings/Settings.php:248
+msgid "Comment Options"
+msgstr "Kommentarindstillinger"
+
+#: classes/Settings/Settings.php:273
+msgid "Gutenberg Editor"
+msgstr "Gutenberg-redigering"
+
+#: classes/Settings/Settings.php:280
+msgid "Disable Editor Features"
+msgstr "Deaktiver redigeringsfunktioner"
+
+#: classes/Settings/Settings.php:305
+msgid "Meta Tags & Head Cleanup"
+msgstr "Metatags og head-oprydning"
+
+#: classes/Settings/Settings.php:312
+msgid "Cleanup Options"
+msgstr "Oprydningsmuligheder"
+
+#: classes/Settings/Settings.php:337
+msgid "REST API Settings"
+msgstr "REST API-indstillinger"
+
+#: classes/Settings/Settings.php:344
+msgid "Custom REST API Whitelist"
+msgstr "Brugerdefineret REST API-hvidliste"
+
+#: classes/Settings/Settings.php:378
+msgid "Select which items to remove from the WordPress admin bar."
+msgstr "Vælg hvilke elementer der skal fjernes fra WordPress adminbaren."
+
+#: classes/Settings/Settings.php:429
+msgid "Remove unnecessary tags and scripts from the site head."
+msgstr "Fjern unødvendige tags og scripts fra webstedets head."
+
+#: classes/Settings/Settings.php:480
+msgid "Customize the WordPress admin footer area."
+msgstr "Tilpas WordPress admin sidefodsområde."
+
+#: classes/Settings/Settings.php:495
+msgid "Left Footer Text"
+msgstr "Venstre sidefodstekst"
+
+#: classes/Settings/Settings.php:500
+msgid "&copy; 2026 My Company. All rights reserved."
+msgstr "&copy; 2026 Mit firma. Alle rettigheder forbeholdes."
+
+#: classes/Settings/Settings.php:502
+msgid "Replaces the default \"Thank you for creating with WordPress\" text. HTML allowed."
+msgstr "Erstatter standardteksten \"Tak fordi du skaber med WordPress\". HTML tilladt."
+
+#: classes/Settings/Settings.php:508
+msgid "Right Footer Text"
+msgstr "Højre sidefodstekst"
+
+#: classes/Settings/Settings.php:513
+msgid "v1.0.0"
+msgstr "v1.0.0"
+
+#: classes/Settings/Settings.php:515
+msgid "Replaces the WordPress version text on the right side. HTML allowed."
+msgstr "Erstatter WordPress versionsteksten i højre side. HTML tilladt."
+
+#: classes/Settings/Settings.php:522
+msgid "Hide Right Footer Text Entirely"
+msgstr "Skjul højre sidefodstekst helt"
+
+#: classes/Settings/Settings.php:558
+msgid "Hide unnecessary fields from the user profile page."
+msgstr "Skjul unødvendige felter fra brugerprofilen."
+
+#: classes/Settings/Settings.php:570
+msgid "Hide Profile Fields"
+msgstr "Skjul profilfelter"
+
+#: classes/Settings/Settings.php:581
+msgid "Remove Contact Methods"
+msgstr "Fjern kontaktmetoder"
+
+#: classes/Settings/Settings.php:621
+msgid "Configure WordPress comment functionality."
+msgstr "Konfigurer WordPress kommentarfunktionalitet."
+
+#: classes/Settings/Settings.php:643
+msgid "Removes the comments menu, closes comments on all posts, hides existing comments, and removes comment support from all post types."
+msgstr "Fjerner kommentarmenuen, lukker kommentarer på alle indlæg, skjuler eksisterende kommentarer og fjerner kommentarunderstøttelse fra alle indlægstyper."
+
+#: classes/Settings/Settings.php:673
+msgid "Disable default Gutenberg editor features for all users."
+msgstr "Deaktiver standard Gutenberg-redigeringsfunktioner for alle brugere."
+
+#: classes/Settings/Settings.php:695
+msgid "Checked features will be turned off when the editor loads."
+msgstr "Markerede funktioner slås fra når redigeringsværktøjet indlæses."
+
+#: classes/Settings/Settings.php:725
+msgid "Select which widgets to remove from the WordPress dashboard."
+msgstr "Vælg hvilke widgets der skal fjernes fra WordPress adminpanelet."
+
+#: classes/Settings/Settings.php:767
+msgid "Configure REST API access restrictions for non-logged-in users."
+msgstr "Konfigurer REST API-adgangsbegrænsninger for ikke-loggede brugere."
+
+#: classes/Settings/Settings.php:788
+msgid "Add custom REST API endpoints to whitelist (comma-separated). These will be accessible to non-logged-in users."
+msgstr "Tilføj brugerdefinerede REST API-endepunkter til hvidlisten (kommasepareret). Disse vil være tilgængelige for ikke-loggede brugere."
+
+#: classes/Settings/Settings.php:792
+msgid "Example:"
+msgstr "Eksempel:"
+
+#: classes/Settings/Settings.php:798
+msgid "View Default Whitelisted Endpoints"
+msgstr "Vis standard hvidlistede endepunkter"
+
+#: classes/Settings/Settings.php:801
+msgid "These endpoints are whitelisted by default and do not need to be added manually:"
+msgstr "Disse endepunkter er hvidlistet som standard og behøver ikke tilføjes manuelt."
+
+#: classes/Settings/Settings.php:906
+msgid "Toggle all"
+msgstr "Skift alle"
+
+#: classes/Settings/Settings.php:907
+msgid "Toggle All"
+msgstr "Skift alle"
+
+#: classes/Settings/Settings.php:927
+msgid "Save Settings"
+msgstr "Gem indstillinger"
+
+#: classes/Settings/Settings.php:928
+msgid "Buy me a coffee"
+msgstr "Giv mig en kop kaffe"
