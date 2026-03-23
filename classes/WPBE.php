@@ -1,11 +1,11 @@
 <?php
 
-defined( 'ABSPATH' ) || die();
-
 namespace WPBE;
 
 use WPBE\Settings\Settings;
 use WPBE\Optimization\Optimization;
+
+defined( 'ABSPATH' ) || die();
 
 class WPBE {
 	private static ?WPBE $instance = null;

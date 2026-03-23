@@ -1,8 +1,8 @@
 <?php
 
-defined( 'ABSPATH' ) || die();
-
 namespace WPBE\Optimization\Section;
+
+defined( 'ABSPATH' ) || die();
 
 /**
  * Class AdminFooter

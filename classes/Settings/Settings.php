@@ -1,7 +1,5 @@
 <?php
 
-defined( 'ABSPATH' ) || die();
-
 namespace WPBE\Settings;
 
 use WPBE\Optimization\Section\AdminBar;
@@ -11,6 +9,8 @@ use WPBE\Optimization\Section\Comments;
 use WPBE\Optimization\Section\Gutenberg;
 use WPBE\Optimization\Section\MetaTags;
 use WPBE\Optimization\Section\REST;
+
+defined( 'ABSPATH' ) || die();
 
 /**
  * Class Settings
