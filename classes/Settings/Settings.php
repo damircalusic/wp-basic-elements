@@ -930,6 +930,7 @@ class Settings {
 										<a href="<?php echo esc_url( self::DONATE_PAYPAL ); ?>" target="_blank" class="wpbe-donate-link"><?php esc_html_e( 'Buy me a coffee', 'wpbe' ); ?> &hearts;</a>
 									</div>
 								</div>
+								<?php $first = false; ?>
 							<?php endforeach; ?>
 						</div>
 					</div>

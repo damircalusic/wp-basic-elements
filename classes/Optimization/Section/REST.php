@@ -66,6 +66,10 @@ class REST {
 			'/wp-json/wc/v3/'            => esc_html__( 'WooCommerce REST API v3', 'wpbe' ),
 			'/wp-json/wc-blocks/'        => esc_html__( 'WooCommerce Blocks API', 'wpbe' ),
 
+			// PayPal (Payment Plugins for PayPal WooCommerce)
+			'/wp-json/wc-ppcp/'          => esc_html__( 'PayPal checkout (cart, order, webhooks)', 'wpbe' ),
+			'/wp-json/paypal/'           => esc_html__( 'PayPal endpoints', 'wpbe' ),
+
 			// WordPress Core
 			'/wp-json/wp/v2/media'       => esc_html__( 'WordPress Media uploads', 'wpbe' ),
 			'/wp-json/wp/v2/search'      => esc_html__( 'WordPress Search', 'wpbe' ),
@@ -112,6 +116,15 @@ class REST {
 	 * @return string
 	 */
 	private function get_current_rest_route(): string {
+		// Prefer the route WordPress is actually dispatching. This is set during
+		// serve_request() for every REST request: pretty permalinks, plain
+		// ?rest_route= requests, and proxied dispatches such as the PayPal
+		// "wc-ajax" frontend request (?wc-ajax=...&path=/wc-ppcp/v1/...), where
+		// the real route lives in a query var rather than the URI path.
+		if ( ! empty( $GLOBALS['wp']->query_vars['rest_route'] ) ) {
+			return '/wp-json/' . ltrim( (string) $GLOBALS['wp']->query_vars['rest_route'], '/' );
+		}
+
 		if ( ! isset( $_SERVER['REQUEST_URI'] ) ) {
 			return '';
 		}

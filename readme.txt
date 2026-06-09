@@ -4,7 +4,7 @@ Tags: optimization, cleanup, performance, admin, disable
 Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=AJABLMWDF4RR8&source=url
 Requires at least: 6.9
 Tested up to: 6.9
-Stable tag: 6.0.0
+Stable tag: 6.0.1
 Requires PHP: 8.4
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
@@ -75,6 +75,12 @@ Use the [support forum](https://wordpress.org/support/plugin/wp-basic-elements/)
 3. Admin Bar — choose which items to remove
 
 == Changelog ==
+= 6.0.1 =
+* Fixed settings page showing every section expanded on load; now only the first section is open
+* Fixed REST API whitelist not matching proxied requests (e.g. PayPal's wc-ajax frontend request) by detecting the actually dispatched rest_route; also fixes plain-permalink (?rest_route=) requests
+* Added PayPal endpoints (/wp-json/wc-ppcp/ and /wp-json/paypal/) to the default REST API whitelist
+* Fixed incorrect PHPDoc return type on MetaTags::get_options() that triggered a static-analysis error in the settings page
+
 = 6.0.0 =
 * Complete rewrite of plugin
 * New modern settings UI with sidebar navigation, toggle switches, and per-section cards

@@ -16,7 +16,7 @@ msgstr ""
 
 #. Plugin Name of the plugin
 #: wp-basic-elements.php
-#: classes/Settings/Settings.php:874
+#: classes/Settings/Settings.php:876
 msgid "WP Basic Elements"
 msgstr "WP Basic Elements"
 
@@ -40,495 +40,503 @@ msgstr "Damir Calusic"
 msgid "https://www.damircalusic.com/"
 msgstr "https://www.damircalusic.com/"
 
-#: classes/Optimization/Section/AdminBar.php:25
+#: classes/Optimization/Section/AdminBar.php:27
 msgid "WordPress Logo"
 msgstr "WordPress-logotyp"
 
-#: classes/Optimization/Section/AdminBar.php:26
+#: classes/Optimization/Section/AdminBar.php:28
 msgid "New Content (+New)"
 msgstr "Nytt innehåll (+Nytt)"
 
-#: classes/Optimization/Section/AdminBar.php:27
+#: classes/Optimization/Section/AdminBar.php:29
 msgid "Customize"
 msgstr "Anpassa"
 
-#: classes/Optimization/Section/AdminBar.php:28
+#: classes/Optimization/Section/AdminBar.php:30
 msgid "Updates"
 msgstr "Uppdateringar"
 
-#: classes/Optimization/Section/AdminBar.php:29
-#: classes/Settings/Settings.php:241
+#: classes/Optimization/Section/AdminBar.php:31
+#: classes/Settings/Settings.php:243
 msgid "Comments"
 msgstr "Kommentarer"
 
-#: classes/Optimization/Section/AdminBar.php:30
+#: classes/Optimization/Section/AdminBar.php:32
 msgid "Edit"
 msgstr "Redigera"
 
-#: classes/Optimization/Section/AdminBar.php:31
+#: classes/Optimization/Section/AdminBar.php:33
 msgid "Site Editor"
 msgstr "Webbplatsredigerare"
 
-#: classes/Optimization/Section/AdminBar.php:32
+#: classes/Optimization/Section/AdminBar.php:34
 msgid "Search"
 msgstr "Sök"
 
-#: classes/Optimization/Section/AdminBar.php:33
+#: classes/Optimization/Section/AdminBar.php:35
 msgid "Yoast SEO"
 msgstr "Yoast SEO"
 
-#: classes/Optimization/Section/AdminDashboard.php:27
+#: classes/Optimization/Section/AdminDashboard.php:29
 msgid "Welcome Panel"
 msgstr "Välkomstpanel"
 
-#: classes/Optimization/Section/AdminDashboard.php:31
+#: classes/Optimization/Section/AdminDashboard.php:33
 msgid "At a Glance"
 msgstr "Överblick"
 
-#: classes/Optimization/Section/AdminDashboard.php:35
+#: classes/Optimization/Section/AdminDashboard.php:37
 msgid "Activity"
 msgstr "Aktivitet"
 
-#: classes/Optimization/Section/AdminDashboard.php:39
+#: classes/Optimization/Section/AdminDashboard.php:41
 msgid "Site Health Status"
 msgstr "Webbplatshälsa"
 
-#: classes/Optimization/Section/AdminDashboard.php:43
+#: classes/Optimization/Section/AdminDashboard.php:45
 msgid "Quick Draft"
 msgstr "Snabbutkast"
 
-#: classes/Optimization/Section/AdminDashboard.php:47
+#: classes/Optimization/Section/AdminDashboard.php:49
 msgid "WordPress Events and News"
 msgstr "WordPress-evenemang och nyheter"
 
-#: classes/Optimization/Section/AdminDashboard.php:52
+#: classes/Optimization/Section/AdminDashboard.php:54
 msgid "WooCommerce Setup"
 msgstr "WooCommerce-installation"
 
-#: classes/Optimization/Section/AdminDashboard.php:56
+#: classes/Optimization/Section/AdminDashboard.php:58
 msgid "WooCommerce Recent Reviews"
 msgstr "WooCommerce senaste recensioner"
 
-#: classes/Optimization/Section/AdminDashboard.php:60
+#: classes/Optimization/Section/AdminDashboard.php:62
 msgid "WooCommerce Status"
 msgstr "WooCommerce-status"
 
-#: classes/Optimization/Section/AdminDashboard.php:64
+#: classes/Optimization/Section/AdminDashboard.php:66
 msgid "WooCommerce Sales"
 msgstr "WooCommerce-försäljning"
 
-#: classes/Optimization/Section/AdminDashboard.php:68
+#: classes/Optimization/Section/AdminDashboard.php:70
 msgid "WooCommerce Recent Orders"
 msgstr "WooCommerce senaste beställningar"
 
-#: classes/Optimization/Section/AdminDashboard.php:73
+#: classes/Optimization/Section/AdminDashboard.php:75
 msgid "Yoast SEO Overview"
 msgstr "Yoast SEO-översikt"
 
-#: classes/Optimization/Section/AdminDashboard.php:78
+#: classes/Optimization/Section/AdminDashboard.php:80
 msgid "Easy WP SMTP Reports"
 msgstr "Easy WP SMTP-rapporter"
 
-#: classes/Optimization/Section/AdminFooter.php:35
+#: classes/Optimization/Section/AdminFooter.php:37
 msgid "Custom Footer Text"
 msgstr "Anpassad sidfotstext"
 
-#: classes/Optimization/Section/AdminFooter.php:39
+#: classes/Optimization/Section/AdminFooter.php:41
 msgid "Hide WordPress Version"
 msgstr "Dölj WordPress-version"
 
-#: classes/Optimization/Section/AdminUserProfile.php:50
+#: classes/Optimization/Section/AdminUserProfile.php:52
 msgid "Rich Editing"
 msgstr "Visuell redigering"
 
-#: classes/Optimization/Section/AdminUserProfile.php:54
+#: classes/Optimization/Section/AdminUserProfile.php:56
 msgid "Syntax Highlighting"
 msgstr "Syntaxmarkering"
 
-#: classes/Optimization/Section/AdminUserProfile.php:58
+#: classes/Optimization/Section/AdminUserProfile.php:60
 msgid "Comment Shortcuts"
 msgstr "Kommentarsgenvägar"
 
-#: classes/Optimization/Section/AdminUserProfile.php:62
+#: classes/Optimization/Section/AdminUserProfile.php:64
 msgid "Admin Color Scheme"
 msgstr "Adminfärgschema"
 
-#: classes/Optimization/Section/AdminUserProfile.php:66
+#: classes/Optimization/Section/AdminUserProfile.php:68
 msgid "Show Admin Bar on Front"
 msgstr "Visa adminbar på framsidan"
 
-#: classes/Optimization/Section/AdminUserProfile.php:70
+#: classes/Optimization/Section/AdminUserProfile.php:72
 msgid "Application Passwords"
 msgstr "Applikationslösenord"
 
-#: classes/Optimization/Section/AdminUserProfile.php:74
+#: classes/Optimization/Section/AdminUserProfile.php:76
 msgid "Yoast SEO Settings"
 msgstr "Yoast SEO-inställningar"
 
-#: classes/Optimization/Section/AdminUserProfile.php:87
+#: classes/Optimization/Section/AdminUserProfile.php:89
 msgid "Facebook"
 msgstr "Facebook"
 
-#: classes/Optimization/Section/AdminUserProfile.php:88
+#: classes/Optimization/Section/AdminUserProfile.php:90
 msgid "Instagram"
 msgstr "Instagram"
 
-#: classes/Optimization/Section/AdminUserProfile.php:89
+#: classes/Optimization/Section/AdminUserProfile.php:91
 msgid "LinkedIn"
 msgstr "LinkedIn"
 
-#: classes/Optimization/Section/AdminUserProfile.php:90
+#: classes/Optimization/Section/AdminUserProfile.php:92
 msgid "MySpace"
 msgstr "MySpace"
 
-#: classes/Optimization/Section/AdminUserProfile.php:91
+#: classes/Optimization/Section/AdminUserProfile.php:93
 msgid "Pinterest"
 msgstr "Pinterest"
 
-#: classes/Optimization/Section/AdminUserProfile.php:92
+#: classes/Optimization/Section/AdminUserProfile.php:94
 msgid "SoundCloud"
 msgstr "SoundCloud"
 
-#: classes/Optimization/Section/AdminUserProfile.php:93
+#: classes/Optimization/Section/AdminUserProfile.php:95
 msgid "Tumblr"
 msgstr "Tumblr"
 
-#: classes/Optimization/Section/AdminUserProfile.php:94
+#: classes/Optimization/Section/AdminUserProfile.php:96
 msgid "Twitter / X"
 msgstr "Twitter / X"
 
-#: classes/Optimization/Section/AdminUserProfile.php:95
+#: classes/Optimization/Section/AdminUserProfile.php:97
 msgid "YouTube"
 msgstr "YouTube"
 
-#: classes/Optimization/Section/AdminUserProfile.php:96
+#: classes/Optimization/Section/AdminUserProfile.php:98
 msgid "Wikipedia"
 msgstr "Wikipedia"
 
-#: classes/Optimization/Section/AdminUserProfile.php:97
+#: classes/Optimization/Section/AdminUserProfile.php:99
 msgid "AIM"
 msgstr "AIM"
 
-#: classes/Optimization/Section/AdminUserProfile.php:98
+#: classes/Optimization/Section/AdminUserProfile.php:100
 msgid "Yahoo IM"
 msgstr "Yahoo IM"
 
-#: classes/Optimization/Section/AdminUserProfile.php:99
+#: classes/Optimization/Section/AdminUserProfile.php:101
 msgid "Jabber / Google Talk"
 msgstr "Jabber / Google Talk"
 
-#: classes/Optimization/Section/Comments.php:38
+#: classes/Optimization/Section/Comments.php:40
 msgid "Disable Comments Entirely"
 msgstr "Inaktivera kommentarer helt"
 
-#: classes/Optimization/Section/Gutenberg.php:28
+#: classes/Optimization/Section/Gutenberg.php:30
 msgid "Welcome Guide"
 msgstr "Välkomstguide"
 
-#: classes/Optimization/Section/Gutenberg.php:29
+#: classes/Optimization/Section/Gutenberg.php:31
 msgid "Fullscreen Mode"
 msgstr "Helskärmsläge"
 
-#: classes/Optimization/Section/Gutenberg.php:30
+#: classes/Optimization/Section/Gutenberg.php:32
 msgid "Focus Mode (Spotlight)"
 msgstr "Fokusläge (Spotlight)"
 
-#: classes/Optimization/Section/Gutenberg.php:31
+#: classes/Optimization/Section/Gutenberg.php:33
 msgid "Distraction Free Mode"
 msgstr "Distraktionsfritt läge"
 
-#: classes/Optimization/Section/Gutenberg.php:32
+#: classes/Optimization/Section/Gutenberg.php:34
 msgid "Top Toolbar"
 msgstr "Övre verktygsfält"
 
-#: classes/Optimization/Section/MetaTags.php:73
+#: classes/Optimization/Section/MetaTags.php:75
 msgid "Head Cleanup"
 msgstr "Huvudrensning"
 
-#: classes/Optimization/Section/MetaTags.php:75
+#: classes/Optimization/Section/MetaTags.php:77
 msgid "WordPress Generator Tag"
 msgstr "WordPress Generator-tagg"
 
-#: classes/Optimization/Section/MetaTags.php:76
+#: classes/Optimization/Section/MetaTags.php:78
 msgid "oEmbed Discovery Links"
 msgstr "oEmbed-upptäcktslänkar"
 
-#: classes/Optimization/Section/MetaTags.php:77
+#: classes/Optimization/Section/MetaTags.php:79
 msgid "Shortlink Tag"
 msgstr "Kortlänkstagg"
 
-#: classes/Optimization/Section/MetaTags.php:78
+#: classes/Optimization/Section/MetaTags.php:80
 msgid "Windows Live Writer Manifest"
 msgstr "Windows Live Writer-manifest"
 
-#: classes/Optimization/Section/MetaTags.php:79
+#: classes/Optimization/Section/MetaTags.php:81
 msgid "Adjacent Posts (prev/next) Links"
 msgstr "Angränsande inlägg (föreg./nästa) länkar"
 
-#: classes/Optimization/Section/MetaTags.php:83
+#: classes/Optimization/Section/MetaTags.php:85
 msgid "REST API"
 msgstr "REST API"
 
-#: classes/Optimization/Section/MetaTags.php:85
+#: classes/Optimization/Section/MetaTags.php:87
 msgid "REST API Links (head, header, RSD)"
 msgstr "REST API-länkar (head, header, RSD)"
 
-#: classes/Optimization/Section/MetaTags.php:89
+#: classes/Optimization/Section/MetaTags.php:91
 msgid "Feeds"
 msgstr "Flöden"
 
-#: classes/Optimization/Section/MetaTags.php:91
+#: classes/Optimization/Section/MetaTags.php:93
 msgid "RSD (Really Simple Discovery) Link"
 msgstr "RSD-länk (Really Simple Discovery)"
 
-#: classes/Optimization/Section/MetaTags.php:92
+#: classes/Optimization/Section/MetaTags.php:94
 msgid "RSS Feed Links"
 msgstr "RSS-flödeslänkar"
 
-#: classes/Optimization/Section/MetaTags.php:96
+#: classes/Optimization/Section/MetaTags.php:98
 msgid "Emojis"
 msgstr "Emojis"
 
-#: classes/Optimization/Section/MetaTags.php:98
+#: classes/Optimization/Section/MetaTags.php:100
 msgid "Emoji Scripts, Styles and TinyMCE Plugin"
 msgstr "Emoji-skript, stilar och TinyMCE-tillägg"
 
-#: classes/Optimization/Section/MetaTags.php:102
+#: classes/Optimization/Section/MetaTags.php:104
 msgid "Pingbacks & Trackbacks"
 msgstr "Pingbacks och Trackbacks"
 
-#: classes/Optimization/Section/MetaTags.php:104
+#: classes/Optimization/Section/MetaTags.php:106
 msgid "Disable Pingbacks, Trackbacks and X-Pingback Header"
 msgstr "Inaktivera Pingbacks, Trackbacks och X-Pingback-header"
 
-#: classes/Optimization/Section/REST.php:46
+#: classes/Optimization/Section/REST.php:48
 msgid "REST API restricted to authenticated users."
 msgstr "REST API begränsat till autentiserade användare."
 
-#: classes/Optimization/Section/REST.php:60
+#: classes/Optimization/Section/REST.php:62
 msgid "WooCommerce REST API (cart, checkout, products)"
 msgstr "WooCommerce REST API (kundvagn, kassa, produkter)"
 
-#: classes/Optimization/Section/REST.php:61
+#: classes/Optimization/Section/REST.php:63
 msgid "WooCommerce Analytics"
 msgstr "WooCommerce-analys"
 
-#: classes/Optimization/Section/REST.php:62
+#: classes/Optimization/Section/REST.php:64
 msgid "WooCommerce Admin"
 msgstr "WooCommerce Admin"
 
-#: classes/Optimization/Section/REST.php:63
+#: classes/Optimization/Section/REST.php:65
 msgid "WooCommerce Blocks (cart, checkout blocks)"
 msgstr "WooCommerce-block (kundvagn, kassablock)"
 
-#: classes/Optimization/Section/REST.php:64
+#: classes/Optimization/Section/REST.php:66
 msgid "WooCommerce REST API v3"
 msgstr "WooCommerce REST API v3"
 
-#: classes/Optimization/Section/REST.php:65
+#: classes/Optimization/Section/REST.php:67
 msgid "WooCommerce Blocks API"
 msgstr "WooCommerce Blocks API"
 
-#: classes/Optimization/Section/REST.php:68
+#: classes/Optimization/Section/REST.php:74
 msgid "WordPress Media uploads"
 msgstr "WordPress mediauppladdningar"
 
-#: classes/Optimization/Section/REST.php:69
+#: classes/Optimization/Section/REST.php:75
 msgid "WordPress Search"
 msgstr "WordPress-sökning"
 
-#: classes/Optimization/Section/REST.php:70
+#: classes/Optimization/Section/REST.php:76
 msgid "WordPress Post types"
 msgstr "WordPress inläggstyper"
 
-#: classes/Optimization/Section/REST.php:71
+#: classes/Optimization/Section/REST.php:77
 msgid "WordPress Taxonomies"
 msgstr "WordPress taxonomier"
 
-#: classes/Optimization/Section/REST.php:72
+#: classes/Optimization/Section/REST.php:78
 msgid "oEmbed (embedded content)"
 msgstr "oEmbed (inbäddat innehåll)"
 
-#: classes/Settings/Settings.php:56
+#: classes/Settings/Settings.php:58
 msgid "Settings"
 msgstr "Inställningar"
 
-#: classes/Settings/Settings.php:57
+#: classes/Settings/Settings.php:59
 msgid "Donate (PayPal)"
 msgstr "Donera (PayPal)"
 
-#: classes/Settings/Settings.php:71
+#: classes/Settings/Settings.php:73
 msgid "WPBE Settings"
 msgstr "WPBE-inställningar"
 
-#: classes/Settings/Settings.php:72
+#: classes/Settings/Settings.php:74
 msgid "WPBE Elements"
 msgstr "WPBE Elements"
 
-#: classes/Settings/Settings.php:113
+#: classes/Settings/Settings.php:115
 msgid "Admin Bar"
 msgstr "Adminbar"
 
-#: classes/Settings/Settings.php:120
+#: classes/Settings/Settings.php:122
 msgid "Remove Admin Bar Items"
 msgstr "Ta bort objekt i adminbaren"
 
-#: classes/Settings/Settings.php:145
+#: classes/Settings/Settings.php:147
 msgid "Admin Dashboard"
 msgstr "Adminpanel"
 
-#: classes/Settings/Settings.php:152
+#: classes/Settings/Settings.php:154
 msgid "Remove Dashboard Widgets"
 msgstr "Ta bort panelwidgets"
 
-#: classes/Settings/Settings.php:177
+#: classes/Settings/Settings.php:179
 msgid "Admin Footer"
 msgstr "Adminsidfot"
 
-#: classes/Settings/Settings.php:184
+#: classes/Settings/Settings.php:186
 msgid "Footer Options"
 msgstr "Sidfotsinställningar"
 
-#: classes/Settings/Settings.php:209
+#: classes/Settings/Settings.php:211
 msgid "Admin User Profile"
 msgstr "Adminanvändarprofil"
 
-#: classes/Settings/Settings.php:216
+#: classes/Settings/Settings.php:218
 msgid "Profile Options"
 msgstr "Profilinställningar"
 
-#: classes/Settings/Settings.php:248
+#: classes/Settings/Settings.php:250
 msgid "Comment Options"
 msgstr "Kommentarsinställningar"
 
-#: classes/Settings/Settings.php:273
+#: classes/Settings/Settings.php:275
 msgid "Gutenberg Editor"
 msgstr "Gutenberg-redigerare"
 
-#: classes/Settings/Settings.php:280
+#: classes/Settings/Settings.php:282
 msgid "Disable Editor Features"
 msgstr "Inaktivera redigeringsfunktioner"
 
-#: classes/Settings/Settings.php:305
+#: classes/Settings/Settings.php:307
 msgid "Meta Tags & Head Cleanup"
 msgstr "Metataggar och huvudrensning"
 
-#: classes/Settings/Settings.php:312
+#: classes/Settings/Settings.php:314
 msgid "Cleanup Options"
 msgstr "Rensningsalternativ"
 
-#: classes/Settings/Settings.php:337
+#: classes/Settings/Settings.php:339
 msgid "REST API Settings"
 msgstr "REST API-inställningar"
 
-#: classes/Settings/Settings.php:344
+#: classes/Settings/Settings.php:346
 msgid "Custom REST API Whitelist"
 msgstr "Anpassad REST API-vitlista"
 
-#: classes/Settings/Settings.php:378
+#: classes/Settings/Settings.php:380
 msgid "Select which items to remove from the WordPress admin bar."
 msgstr "Välj vilka objekt som ska tas bort från WordPress adminbar."
 
-#: classes/Settings/Settings.php:429
+#: classes/Settings/Settings.php:431
 msgid "Remove unnecessary tags and scripts from the site head."
 msgstr "Ta bort onödiga taggar och skript från webbplatsens head."
 
-#: classes/Settings/Settings.php:480
+#: classes/Settings/Settings.php:482
 msgid "Customize the WordPress admin footer area."
 msgstr "Anpassa WordPress adminsidfot."
 
-#: classes/Settings/Settings.php:495
+#: classes/Settings/Settings.php:497
 msgid "Left Footer Text"
 msgstr "Vänster sidfotstext"
 
-#: classes/Settings/Settings.php:500
+#: classes/Settings/Settings.php:502
 msgid "&copy; 2026 My Company. All rights reserved."
 msgstr "&copy; 2026 Mitt företag. Alla rättigheter förbehållna."
 
-#: classes/Settings/Settings.php:502
+#: classes/Settings/Settings.php:504
 msgid "Replaces the default \"Thank you for creating with WordPress\" text. HTML allowed."
 msgstr "Ersätter standardtexten \"Tack för att du skapar med WordPress\". HTML tillåtet."
 
-#: classes/Settings/Settings.php:508
+#: classes/Settings/Settings.php:510
 msgid "Right Footer Text"
 msgstr "Höger sidfotstext"
 
-#: classes/Settings/Settings.php:513
+#: classes/Settings/Settings.php:515
 msgid "v1.0.0"
 msgstr "v1.0.0"
 
-#: classes/Settings/Settings.php:515
+#: classes/Settings/Settings.php:517
 msgid "Replaces the WordPress version text on the right side. HTML allowed."
 msgstr "Ersätter WordPress versionstexten på höger sida. HTML tillåtet."
 
-#: classes/Settings/Settings.php:522
+#: classes/Settings/Settings.php:524
 msgid "Hide Right Footer Text Entirely"
 msgstr "Dölj höger sidfotstext helt"
 
-#: classes/Settings/Settings.php:558
+#: classes/Settings/Settings.php:560
 msgid "Hide unnecessary fields from the user profile page."
 msgstr "Dölj onödiga fält från användarprofilen."
 
-#: classes/Settings/Settings.php:570
+#: classes/Settings/Settings.php:572
 msgid "Hide Profile Fields"
 msgstr "Dölj profilfält"
 
-#: classes/Settings/Settings.php:581
+#: classes/Settings/Settings.php:583
 msgid "Remove Contact Methods"
 msgstr "Ta bort kontaktmetoder"
 
-#: classes/Settings/Settings.php:621
+#: classes/Settings/Settings.php:623
 msgid "Configure WordPress comment functionality."
 msgstr "Konfigurera WordPress kommentarsfunktion."
 
-#: classes/Settings/Settings.php:643
+#: classes/Settings/Settings.php:645
 msgid "Removes the comments menu, closes comments on all posts, hides existing comments, and removes comment support from all post types."
 msgstr "Tar bort kommentarsmenyn, stänger kommentarer på alla inlägg, döljer befintliga kommentarer och tar bort kommentarsstöd från alla inläggstyper."
 
-#: classes/Settings/Settings.php:673
+#: classes/Settings/Settings.php:675
 msgid "Disable default Gutenberg editor features for all users."
 msgstr "Inaktivera standardfunktioner i Gutenberg-redigeraren för alla användare."
 
-#: classes/Settings/Settings.php:695
+#: classes/Settings/Settings.php:697
 msgid "Checked features will be turned off when the editor loads."
 msgstr "Markerade funktioner stängs av när redigeraren laddas."
 
-#: classes/Settings/Settings.php:725
+#: classes/Settings/Settings.php:727
 msgid "Select which widgets to remove from the WordPress dashboard."
 msgstr "Välj vilka widgets som ska tas bort från WordPress adminpanel."
 
-#: classes/Settings/Settings.php:767
+#: classes/Settings/Settings.php:769
 msgid "Configure REST API access restrictions for non-logged-in users."
 msgstr "Konfigurera REST API-åtkomstbegränsningar för ej inloggade användare."
 
-#: classes/Settings/Settings.php:788
+#: classes/Settings/Settings.php:790
 msgid "Add custom REST API endpoints to whitelist (comma-separated). These will be accessible to non-logged-in users."
 msgstr "Lägg till anpassade REST API-slutpunkter i vitlistan (kommaseparerade). Dessa blir tillgängliga för ej inloggade användare."
 
-#: classes/Settings/Settings.php:792
+#: classes/Settings/Settings.php:794
 msgid "Example:"
 msgstr "Exempel:"
 
-#: classes/Settings/Settings.php:798
+#: classes/Settings/Settings.php:800
 msgid "View Default Whitelisted Endpoints"
 msgstr "Visa standardvitlistade slutpunkter"
 
-#: classes/Settings/Settings.php:801
+#: classes/Settings/Settings.php:803
 msgid "These endpoints are whitelisted by default and do not need to be added manually:"
 msgstr "Dessa slutpunkter är vitlistade som standard och behöver inte läggas till manuellt."
 
-#: classes/Settings/Settings.php:906
+#: classes/Settings/Settings.php:908
 msgid "Toggle all"
 msgstr "Växla alla"
 
-#: classes/Settings/Settings.php:907
+#: classes/Settings/Settings.php:909
 msgid "Toggle All"
 msgstr "Växla alla"
 
-#: classes/Settings/Settings.php:927
+#: classes/Settings/Settings.php:929
 msgid "Save Settings"
 msgstr "Spara inställningar"
 
-#: classes/Settings/Settings.php:928
+#: classes/Settings/Settings.php:930
 msgid "Buy me a coffee"
 msgstr "Bjud mig på en kaffe"
+
+#: classes/Optimization/Section/REST.php:70
+msgid "PayPal checkout (cart, order, webhooks)"
+msgstr "PayPal-kassa (kundvagn, order, webhooks)"
+
+#: classes/Optimization/Section/REST.php:71
+msgid "PayPal endpoints"
+msgstr "PayPal-slutpunkter"

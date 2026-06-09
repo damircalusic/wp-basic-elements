@@ -3,7 +3,7 @@
  * Plugin Name: WP Basic Elements
  * Plugin URI: https://wordpress.org/plugins/wp-basic-elements/
  * Description: Disable unnecessary features and speed up your site. Make the WP Admin simple and clean.
- * Version: 6.0.0
+ * Version: 6.0.1
  * Author: Damir Calusic
  * Author URI: https://www.damircalusic.com/
  * Text Domain: wpbe
@@ -18,7 +18,7 @@ namespace WPBE;
 
 defined( 'ABSPATH' ) || die();
 
-define( 'WPBE_VERSION', '6.0.0' );
+define( 'WPBE_VERSION', '6.0.1' );
 define( 'WPBE_WEBSITE', str_ireplace( [ 'http://', 'https://', 'www.' ], '', home_url() ) );
 define( 'WPBE_URL', plugin_dir_url( __FILE__ ) );
 define( 'WPBE_PATH', plugin_dir_path( __FILE__ ) );

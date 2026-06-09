@@ -67,7 +67,7 @@ class MetaTags {
 	/**
 	 * Get available meta tag options, grouped by category.
 	 *
-	 * @return array<string, array<string, string>> Group label => [ option key => label ].
+	 * @return array<string, array{label: string, options: array<string, string>}> Group slug => [ label, options ].
 	 */
 	public static function get_options(): array {
 		return [

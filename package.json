@@ -1,6 +1,6 @@
 {
 	"name": "wp-basic-elements",
-	"version": "6.0.0",
+	"version": "6.0.1",
 	"description": "Build tool part for wp-basic-elements plugin",
 	"author": "WK Web Kreativ",
 	"scripts": {
